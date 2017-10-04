@@ -18,3 +18,16 @@ TEST(PiezasTest, sanityCheck)
 {
 	ASSERT_TRUE(true);
 }
+
+TEST(PiezasTest, Piezas)
+{
+	Piezas piezas;
+	ASSERT_TRUE(true);
+}
+
+TEST(PiezasTest, PiezasReset)
+{
+	Piezas piezas;
+	piezas.reset();
+	ASSERT_TRUE(true);
+}
